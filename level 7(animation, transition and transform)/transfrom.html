@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>transform</title>
+    <style>
+        .box{ display: inline-block;
+            background-color: palevioletred;
+            height: 70px;
+            width: 70px;
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+           transition: all 1s ease-in-out 0.5s ;}
+
+            #one:hover{rotate: 45deg;}
+            #two:hover{scale: 1.5;}
+            #three:hover{transform: skew(45deg);}
+            #four{transform: translate(50px,50px);}
+
+
+    </style>
+</head>
+<body>
+    <div id="one" class="box">box1</div>
+    <div id="two" class="box">box2</div>
+    <div id="three" class="box"> box3</div>
+    <div id="four" class="box"> box4</div>
+</body>
+</html>

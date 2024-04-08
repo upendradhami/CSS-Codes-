@@ -1,0 +1,20 @@
+#container{
+    margin: 5px; padding: 5px;
+    height: 500px; width: 500px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row-reverse; /*row ,column , reverse column */
+        border: 5px solid;
+}
+
+.box{
+    height: 50px; width: 50px;
+    margin: 5px; 
+    
+}
+
+#box1{background-color: blue;}
+#box2{background-color: orange;}
+#box3{background-color: red;}
+#box4{background-color: yellow;}
+#box5{background-color: pink;}

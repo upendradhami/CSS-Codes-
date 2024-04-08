@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>border radius and box size</title>
+    <style>
+      *{
+        margin: 0; padding: 0;
+        height: 50px; width: 50px;
+      }
+      #one{padding: 5px;
+        margin: 5px;
+        background-color: brown;
+        border: 5px dashed yellow;
+        border-radius: 15px;
+        box-sizing: border-box;
+      }
+      #two{padding: 5px;
+        margin: 5px;
+        background-color: salmon;
+        border: 5px solid blue;
+       border-radius: 10px; 
+       box-sizing: content-box;  
+    }
+    </style>
+</head>
+<body>
+    <div id="one">box1</div>
+    <div id="two">box2</div>
+    
+</body>
+</html>
