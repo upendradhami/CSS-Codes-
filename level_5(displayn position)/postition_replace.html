@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        .container{
+            position: relative;
+            top: 50px;
+            left: 54px;
+            width: 50%;
+            height: 400px;
+            background-image: url("https://th.bing.com/th/id/OIP.LZj6p8awB9QlC6SO88XtUwHaE5?rs=1&pid=ImgDetMain");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;}
+    
+        .box1{
+            position: absolute;
+            top: 40%;
+            left: 0;
+            font-size: xx-large;
+            background-color: red;
+        }
+        .box1:active{background-color: palegoldenrod;}
+
+        
+        .box2{
+            position: absolute;
+            top: 40%;
+            right: 0;
+            font-size: xx-large;
+            background-color: yellow;
+        } .box2:active{background-color: blueviolet;}
+
+        .container:hover{
+            position: relative;
+            top: 50px;
+            left: 54px;
+            width: 50%;
+            height: 400px;
+            background-image: url("https://th.bing.com/th/id/OIP.Og5yLMC2NWG1pxHCD_r-6wHaFj?rs=1&pid=ImgDetMain");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;}
+    </style>
+</head>
+<body>
+    <div class="container">
+       <button class="box1">&lt;</button>
+       <button class="box2">&gt;</button>
+    </div>
+</body>
+</html>

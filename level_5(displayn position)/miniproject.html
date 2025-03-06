@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Creating Overlaying display</title>
+ <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ <style>
+     .container{
+         position: relative;
+         width: 80%;
+         margin: auto;
+         display: flex;
+         justify-content: space-between;
+     }
+     .box{
+         width: 25%;
+         position:relative;
+         height: 500px;
+         color: white;
+         box-shadow: 0 0 15px rgba(0,0,0,0.5);
+         margin: 10px;
+     }
+     .box .overlaybox{
+        position:absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-color: black;
+        color: white;
+        display: none;
+     }
+
+    .box:hover .overlaybox{
+     display: block;
+
+    }
+
+    .container .box{
+     display: flex;
+     flex-wrap: wrap;
+    }
+
+    .box .part1{
+     width:100%;
+     height: 45%;
+     background-image: linear-gradient( pink,rgb(206, 79, 100));
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    } 
+    .part1 .logo{
+     width: 30%;
+     font-size: 80px;
+    }
+    .part1 .headings{
+     width: 70%;
+     font-size: xx-large;
+    }
+     
+    .part1 .headings .p{
+       text-align: start;
+      text-transform: capitalize;
+    }
+    .box .part2{
+     width:100%;
+     height: 55%;
+     background-color: white;
+    }
+
+    .part2 p{
+
+     margin: 40px 20px 20px 20px;
+     color: black; 
+     font-size: x-large;
+     text-transform: capitalize;
+     
+    }
+    .part2 .iconk{
+       margin-left: 20px;
+       color: darkorange;
+    }
+
+    
+ </style>
+</head>
+<body>
+      <div class="container">
+         <div class="box"> 
+             <div class="part1"><div class="logo"><i class='bx bxl-c-plus-plus' ></i></div> <div class="headings"><p>c program certification training course</p></div></div>
+             <div class="part2"> <p>c program certification training course</p>
+             <pre style="color: black;">
+ review
+             </pre> <div class="iconk"><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i></div>  </div>  
+            
+             <div class="overlaybox">hello guys <br>
+              <pre>
+new class: 
+ starting : 0-30th october 
+
+get ready soon admission starting
+              </pre></div>
+         </div>
+
+         <div class="box"> 
+             <div class="part1"><div class="logo"><i class='bx bxl-dev-to' ></i></div> <div class="headings"><p>devops certification training course</p></div></div>
+             <div class="part2"><p>devops certification training course</p>
+             <pre style="color: black;">
+ review
+             </pre> <div class="iconk"><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i></div>  </div>
+             <div class="overlaybox">hello guys <br>
+              <pre>
+  new class: 
+     starting : 0-30th october 
+
+  get ready soon admission starting
+              </pre></div>
+         </div>
+
+         <div class="box"> 
+             <div class="part1"><div class="logo"><i class='bx bxl-java'></i></div> <div class="headings"><p>java certification training course</p></div></div>
+             <div class="part2"><p>java certification training course</p>
+             <pre style="color: black;">
+ review
+             </pre> <div class="iconk"><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i></div>  </div>
+             <div class="overlaybox">hello guys <br>
+              <pre>
+  new class: 
+     starting : 0-30th october 
+
+  get ready soon admission starting
+              </pre></div>
+         </div>
+
+         <div class="box"> 
+             <div class="part1"><div class="logo"><i class='bx bxl-python' ></i></div> <div class="headings"><p>python certification training course</p></div></div>
+             <div class="part2"> <p>python certification training course</p>
+             <pre style="color: black;">
+review
+             </pre> <div class="iconk"><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i></div>  </div>
+             <div class="overlaybox">hello guys <br>
+              <pre>
+  new class: 
+     starting : 0-30th october 
+
+  get ready soon admission starting
+              </pre></div>
+         </div>
+         
+      </div>
+</body>
+</html>

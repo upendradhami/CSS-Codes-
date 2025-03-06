@@ -1,0 +1,31 @@
+*{margin: 0; padding: 0;}
+header{
+     padding: 5px;  background-color: aquamarine;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 70px; padding: 5px;
+}
+    .box{ height: 100px; width: 100px; display: inline-block; background-color: blue;}
+
+    .one{ height: 100px; width: 100px; margin: 5px;
+        padding: 5px; background-color: tan;}
+
+    #container{ border: 5px solid;}
+
+    #box1{ height: 50px; width: 50px;
+          background-color: green; text-align: center; border-radius: 50%;
+        top: 40px; }
+
+    #box2{ position: fixed; top: 150px; right: 50px; }
+
+    #box3{z-index: 1; position: absolute;
+        left: 50px;}
+
+    #box4{z-index: 3;}
+
+    footer{margin: 0; padding: 0;
+        position: fixed;
+        bottom: 1px; background-color: rebeccapurple;
+    }

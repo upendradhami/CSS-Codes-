@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{ margin: 0; padding: 0;}
+        
+        .box{ background-color: rebeccapurple;
+              height: 60px; width: 60px;
+              margin: 5px; padding: 5px;
+              border: 2px dotted ;
+              text-align: center;
+              text-overflow: clip;
+            }
+        #upen{
+            position: fixed; 
+            top: 60px;
+            left: 60px;
+        }
+        #dra{
+            position: absolute;
+            top: 30px;
+            right: 50px;
+            
+        }
+        #dha{
+            position:relative;
+            top: 30px;
+            left: 30px;
+        }
+        #mi{
+            position:static;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="upen" class="box">box1</div>
+    <div id="dra" class="box">box2</div>
+    <div id="dha" class="box">box3</div>
+    <div id="mi" class="box">box4</div>
+    <div class="box">box</div>
+    <div class="box">box</div>
+    <div class="box">box</div>
+    <div class="box">box</div> <div class="box">box</div>
+    <div class="box">box</div> <div class="box">box</div>
+    <div class="box">box</div> <div class="box">box</div>
+    <div class="box">box</div>
+</body>
+</html>
