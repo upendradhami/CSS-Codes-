@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is an responsive website </title>
+    <style>
+       .container{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+       }
+        @media screen and (max-width: 600px){
+            .upen{ height: 50vh; width: 50vh;
+                background-color: red;}
+        }
+        @media screen and (min-width:610px) {
+                  
+            .upen{height: 25vh; width: 50vh;
+                background-color: blue;}
+        }
+    </style>
+</head>
+<body>
+     <p>  This is an responsive website which i made with the help of css </p>
+     <div class="container"><div class="upen ">this is one box </div>
+     <div class="upen ">this is another box </div>
+     <div class="upen ">this is second last box</div>
+     <div class="upen ">this is last box</div></div>
+</body>
+</html>
