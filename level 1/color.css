@@ -1,3 +1,8 @@
+body {
+   background: url(../image/radharani.jpg);
+   background-size: cover;
+   background-position: fixed;
+}
 h1{
     color: rgb(48, 60, 47)
 }
